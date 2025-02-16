@@ -7,78 +7,75 @@ const CONFIG = {
     // Example: "Jade", "Sarah", "Mike"
     valentineName: "Shon",
 
-    // The title that appears in the browser tab, with a timeless ode to love
-    pageTitle: "A Timeless Ode to Love for Shon 💝",
+    // The title that appears in the browser tab
+    pageTitle: "A Slightly Twisted Love Ode for You, Shon 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],  
+        bears: ['🧸', '🐻']                       
     },
 
-    // Questions and answers with a classical, poetic touch
+    // Questions and answers with a witty, dark twist
     questions: {
         first: {
-            text: "Dear Shon, does your heart echo the cadence of mine?",
-            yesBtn: "Indeed, with passion!",
-            noBtn: "Alas, not in measure...",
-            secretAnswer: "Not mere fondness, but an eternal adoration awaits! ❤️"
+            text: "Hey Shon, ever wonder why I exist if not for this peculiar kind of affection?",
+            yesBtn: "I'm intrigued!",
+            noBtn: "Not feeling it...",
+            secretAnswer: "Maybe it's fate, or just my odd sense of humor. ❤️"
         },
         second: {
-            text: "How boundless is the ardor that fills your soul?",
-            startText: "Infinite as the heavens!",
-            nextBtn: "Proceed, with passion! ❤️"
+            text: "How intense is this weird, all-consuming fondness I have for you?",
+            startText: "Off the charts and then some!",
+            nextBtn: "Show me more ❤️"
         },
         third: {
-            text: "Will you, dear Shon, join me in a bond of eternal affection? 🌹",
-            yesBtn: "Forever united!",
-            noBtn: "Alas, my heart laments..."
+            text: "Will you be my Valentine and dive into this delightfully dark romance with me? 🌹",
+            yesBtn: "Absolutely, let's embrace the madness!",
+            noBtn: "I think I'll pass..."
         }
     },
 
-    // Love meter messages in a classical style
+    // Love meter messages with a twist of dark humor
     loveMessages: {
-        extreme: "Ah, the divine gaze beholds such fervor! 🥰🚀💝",
-        high: "To the stars and beyond! 🚀💝",
-        normal: "Ever onward in affection! 🥰"
+        extreme: "Whoa, you've reached the cosmic absurdity of my affection! 🥰🚀💝",
+        high: "To the edge of sanity and back! 🚀💝",
+        normal: "Just a quirky dose of love for you! 🥰"
     },
 
-    // Messages that appear after they affirm their love
+    // Messages that appear after a positive response
     celebration: {
-        title: "Rejoice! Fate has entwined our souls in love! 🎉💝💖💝💓",
-        message: "Now, dear Shon, receive this token of my affection—a warm embrace and a kiss as timeless as the eternal forms.",
+        title: "Cheers! Fate (and a touch of madness) brought us together! 🎉💝💖💝💓",
+        message: "Here's my non utility attempt at love—irreverent, dark, and refreshingly genuine.",
         emojis: "🎁💖🤗💝💋❤️💕"
     },
 
     // Color scheme for the website
-    // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#ffafbd",
+        backgroundEnd: "#ffc3a0",
+        buttonBackground: "#ff6b6b",
+        buttonHover: "#ff8787",
+        textColor: "#ff4757"
     },
 
-    // Animation settings
-    // Adjust these if you want faster/slower animations
+    // Animation settings for a playful vibe
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        floatDuration: "15s",
+        floatDistance: "50px",
+        bounceSpeed: "0.5s",
+        heartExplosionSize: 1.5
     },
 
     // Background Music (Optional)
-    // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/deq8nrimd/video/upload/v1739630189/PinkFloyd-04-WishYouWereHere_vn4ayr.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        enabled: true,
+        autoplay: true,
+        musicUrl: "https://res.cloudinary.com/deq8nrimd/video/upload/v1739630189/PinkFloyd-04-WishYouWereHere_vn4ayr.mp3",
+        startText: "🎵 Play Music",
+        stopText: "🔇 Stop Music",
+        volume: 0.5
     }
 };
 
